@@ -1,0 +1,30 @@
+requirements: (you can download it to the anaconda terminal)
+tensorflow
+numpy
+matplotlib
+seaborn
+scikit-learn
+
+
+
+
+
+
+
+1.) download the datasets of Leaf Rust, Miner, Healthy, 
+2.) put that rust,miner,healthy to a folder named : input_dataset
+3.)  Go to your anaconda navigator and choose jupyter, and find the folder then click new notebook
+
+4.) when you are now in the notebook  you must split the images into 60/20/20 , 60 for training and 20 for validation and test, 
+click and follow the code in splitdata.ipynb
+5.) check your folder, you will have a folder named : processed_data
+
+
+6.) after that create another notebook from that folder in jupyter
+7.) after that copy the code of my RestNet50New
+8.) and run all of it
+9.) check the accuracy of the model
+
+
+
+
